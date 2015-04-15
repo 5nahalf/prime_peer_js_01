@@ -1,11 +1,13 @@
 //step 1
 var value = 42;
+
 //step 2
 if(value >= 53) {
 	value += 42;
 } else {
 	value -= 13;
 }
+
 //step 3
 var a = "11";
 value = value + a;
@@ -19,21 +21,24 @@ var array = [];
 		array.push(value[i]);
 	}
 console.log(array)
+
 //step 5
 array.shift();
 array.pop();
 
 console.log(array)
+
 //step 6
 var j;
 var stringNum = "";
 for(j = (array.length - 1); j >= 0; j--){
 	stringNum += array[j];
-
 }
+
 console.log(stringNum)
 
 //step 7
+
 value = parseInt(value)
 stringNum = parseInt(stringNum)
 
@@ -77,4 +82,6 @@ function prime(val){
 value = prime(value);
 
 console.log(value);
+
+document.write(value);
 
